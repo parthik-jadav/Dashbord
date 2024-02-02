@@ -1,0 +1,34 @@
+.menu-tab {
+    width: 90px;
+    height: 70px;
+    position: fixed;
+    z-index: 100;
+    top: -3.5%;
+    left: 16%;
+    cursor: pointer;
+    transition: all .6s ease-in-out;
+}
+.menu-hide {
+    width: 160px;
+    left: 0px;
+    height: 100vh;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    transition: all .6s ease-in-out;
+}
+.active {
+    left: 20px;
+    transition: all 600ms ease-in-out;
+}
+.show {
+    left: -200px;
+    transition: all .6s ease-in-out;
+}
+.menu-tab svg{
+    width: 14px;
+    opacity: 0.5;
+}
+.menu-bg{
+    background-color: var(--menu-bg);
+}
